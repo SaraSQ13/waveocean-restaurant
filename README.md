@@ -16,4 +16,4 @@ Responsive web design of a restaurant using flex, grid and a bit of Bootstrap on
 
 ## Usage <a name = "usage"></a>
 
-Chose you favorite browser follow this link:  and navigate to the different pages. 
+Chose you favorite browser follow this link: https://sarasq13.github.io/waveocean-restaurant/  and navigate to the different pages. 
