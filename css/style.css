@@ -128,7 +128,7 @@ button {
     color: aliceblue;
 }
 
-/* Home */
+/* Frontpage */
 
 .frontpage{
     height: 100%;
@@ -145,24 +145,6 @@ button {
 .img-frontpage{
     height: 35vh;
     width: 85vw;
-}
-
-.button {
-    display: inline-block;
-    background-color: rgb(111, 200, 200);
-    color: #fff;
-    padding: 1rem 1.75rem;
-    border-radius: .5rem;
-    font-weight: 500;
-    transition: .3s;
-}
-
-.button:hover {
-    background-color: #06c4d2;
-}
-
-.buttonicon {
-    font-size: 1.25rem;
 }
 
 /* Categories */
@@ -309,12 +291,7 @@ button {
     color: #fff;
 }
 
-.newdis {
-    color: #06c4d2;
-    font-size: .75rem;
-    text-decoration: line-through;
-    font-weight: 500;
-}
+
 
 .newbu {
     display: inline-flex;
@@ -471,6 +448,20 @@ button {
     border-radius: .5rem;
 }
 
+
+/* Contact styles */
+
+.contact-title{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 /*BREAKPOINTS*/
 
 @media screen and (max-width: 320px) {
@@ -520,21 +511,6 @@ button {
 
     .nav {
         height: calc(3.5rem + 1.5rem);
-    }
-
-    .navClose,
-    .navToggle {
-        display: none;
-    }
-
-    .navList {
-        flex-direction: row;
-        column-gap: 3rem;
-    }
-
-    .navLink {
-        text-transform: initial;
-        font-weight: initial;
     }
 
     .homecont {
@@ -619,22 +595,17 @@ button {
     }
 
     .image-logo{
-        width: 7vw;
+        width: 1vw;
+        height: 7vh;
     }
     .frontpage{
        height: 42vw;
     }    
     .img-frontpage {
-        height: 42vh;
+        height: 100vh;
         width: 40vw;
         
     }
-
-    .img-frontpage {
-        height: 300px;
-        transform: translateY(-3rem);
-    }
-
 
     .catcontainer {
         column-gap: 15rem;
